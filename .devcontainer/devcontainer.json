@@ -1,0 +1,19 @@
+{
+	"name": "PS2DED",
+	"dockerFile": "Dockerfile",
+	"settings": { 
+		"terminal.integrated.shell.linux": null
+	},
+	"containerEnv": {
+		"PS2IP": "192.168.1.100"
+	},
+	"extensions": [
+		"ms-vscode.cpptools"
+	],
+	"runArgs": [
+		"--rm"
+	],
+	"workspaceMount": "source=${localWorkspaceFolder},target=/work,type=bind",
+	"workspaceFolder": "/root/work",
+	"postStartCommand": "bash /usr/local/ps2ded/sync_work /root"
+}

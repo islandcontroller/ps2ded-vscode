@@ -1,0 +1,33 @@
+{
+    "configurations": [
+        {
+            "name": "EE",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "/usr/local/sce/common/include/**",
+                "/usr/local/sce/ee/include/**",
+                "/usr/local/sce/ee/gcc/ee/include/**",
+                "/usr/local/sce/ee/gcc/lib/gcc-lib/ee/3.2-ee-040921/include/**" 
+            ],
+            "defines": [],
+            "cStandard": "c11",
+            "cppStandard": "c++03",
+            "intelliSenseMode": "gcc-x64"
+        },
+        {
+            "name": "IOP",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "/usr/local/sce/common/include/**",
+                "/usr/local/sce/iop/include/**",
+                "/usr/local/sce/iop/gcc/mipsel-scei-elfl/include/**",
+                "/usr/local/sce/iop/gcc/lib/gcc-lib/mipsel-scei-elfl/2.8.1/include/**"
+            ],
+            "defines": [],
+            "cStandard": "c11",
+            "cppStandard": "c++03",
+            "intelliSenseMode": "gcc-x64"
+        }
+    ],
+    "version": 4
+}
