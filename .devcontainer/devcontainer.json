@@ -13,6 +13,8 @@
 	"runArgs": [
 		"--rm"
 	],
+
+	// Comment out parts below for Linux host or open-source SDK
 	"workspaceMount": "source=${localWorkspaceFolder},target=/work,type=bind",
 	"workspaceFolder": "/root/work",
 	"postStartCommand": "bash /usr/local/ps2ded/sync_work /root"
