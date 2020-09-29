@@ -10,8 +10,8 @@
                 "/usr/local/sce/ee/gcc/lib/gcc-lib/ee/3.2-ee-040921/include/**" 
             ],
             "defines": [],
-            "cStandard": "c11",
-            "cppStandard": "c++03",
+            "cStandard": "gnu89",
+            "cppStandard": "gnu++98",
             "intelliSenseMode": "gcc-x64"
         },
         {
@@ -26,9 +26,9 @@
                 "${PS2DEV}/ee/lib/gcc-lib/ee/3.2.3/include/**",
                 "${GSKIT}/include/**"
             ],
-            "defines": [],
-            "cStandard": "c11",
-            "cppStandard": "c++03",
+            "defines": ["_EE"],
+            "cStandard": "gnu89",
+            "cppStandard": "gnu++98",
             "intelliSenseMode": "gcc-x64"
         },
         {
@@ -41,8 +41,8 @@
                 "/usr/local/sce/iop/gcc/lib/gcc-lib/mipsel-scei-elfl/2.8.1/include/**"
             ],
             "defines": [],
-            "cStandard": "c11",
-            "cppStandard": "c++03",
+            "cStandard": "gnu89",
+            "cppStandard": "gnu++98",
             "intelliSenseMode": "gcc-x64"
         },
         {
@@ -55,8 +55,8 @@
                 "${PS2DEV}/iop/lib/gcc-lib/iop/3.2.3/include/**",
                 "${PS2DEV}/iop/iop/sys-include/**"
             ],
-            "defines": [],
-            "cStandard": "c11",
+            "defines": ["_IOP"],
+            "cStandard": "gnu89",
             "cppStandard": "c++03",
             "intelliSenseMode": "gcc-x64"
         }
