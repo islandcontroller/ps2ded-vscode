@@ -4,8 +4,8 @@
 
 Template project repository for developing PlayStation 2 applications using Visual Studio Code. Requires one of the following toolchain host containers:
 
-* [**`ps2ded-oss`**](https://github.com/inselc/ps2ded-oss) for use with the Open Source PlayStation 2 SDK
-* [**`ps2ded-sce`**](https://github.com/inselc/ps2ded-sce) for use with the Sony PlayStation 2 SDK
+* [**`ps2ded-oss`**](https://github.com/islandcontroller/ps2ded-oss) for use with the Open Source PlayStation 2 SDK
+* [**`ps2ded-sce`**](https://github.com/islandcontroller/ps2ded-sce) for use with the Sony PlayStation 2 SDK
 
 The devcontainer is configured for running on a Windows host (workaround applied).
 
